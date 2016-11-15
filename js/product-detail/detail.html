@@ -1,0 +1,37 @@
+
+<img ng-src="{{$ctrl.mainImageUrl}}" class="phone">
+
+<ul class="phone-thumbs">
+	<li ng-repeat="img in $ctrl.phone.images">
+		<img ng-src="{{img}}" ng-click="$ctrl.setImage(img)" class="images_phone2">
+	</li>
+</ul>
+
+<section class="chat-page" ng-controller="chatCtrl as chat">
+		<div class="chat-window">
+			<div class="chat-header">
+				<div class="chat_header__author">
+					{{chat.author.displayName}}
+				</div>
+				<div class="chat-header__bths">
+					<button ng-if="!chat.author" class="btn btn-green" ng-click="!chat.login()">Войти</button>
+					<button ng-if="chat.author" class="btn btn-red" ng-click="chat.logout()">Выйти</button>
+				</div>
+			</div>
+			<div class="chat-body">
+			<ul class="messages">
+				<li class="message message--mine" ng-class="{'message--mine': m.authorId == chat.author.uid}" ng-repeat="m in chat.shownMessages">
+					<img ng-src="{{m.authorPhoto}}" alt="" class="message__photo">
+					<span class="message__author">{{m.authorName}}</span>
+					<div class="message__text">
+						{{m.text}}
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="chat-footer">
+			<textarea enter-sender="chat.sendMessage()" rows="5" ng-model="chat.newMessage"></textarea>
+			<button class="btn btn-green" ng-click="chat.sendMessage()">Send</button>
+		</div>
+		</div>
+	</section>

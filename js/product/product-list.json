@@ -1,0 +1,24 @@
+[
+	{
+	"age": 0,
+	"id": "Sony",
+	"title": "Sony",
+	"imageUrl": "images/Без названия.jpg",
+	"text": "Смартфон Xperia Z5 "
+	},
+	{
+	"age": 2,
+	"id": "Apple-iPhone6",
+	"title": "Apple-iPhone6",
+	"imageUrl": "images/Apple-iPhone6-Plus-GLD2.png",
+	"text": "iPhone 6S: ВСЕ ПО-НОВОМУ В ПРЕЖНЕМ ДИЗАЙНЕТонкий и легкий смартфон "
+	},
+	{
+	"age": 3,
+	"id": "jolla-store-white-hi-res",
+	"title": "jolla-store-white-hi-res",
+	"imageUrl": "images/jolla-store-white-hi-res.png",
+	"text": "jolla Мощная начинка"
+	}
+
+]

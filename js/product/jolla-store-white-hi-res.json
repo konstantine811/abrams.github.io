@@ -1,0 +1,18 @@
+{
+  "additionalFeatures": "Contour Display, Near Field Communications (NFC), ...",
+  "android": {
+    "os": "Android 4",
+    "ui": "Android"
+  },
+  
+  "images": [
+    "images/phones/jolla/_Jolla_.jpg",
+    "images/phones/jolla/jolla-c-16gb-krasnyy-dual-sim-4g-lte-3g (1).jpg",
+    "images/phones/jolla/jolla-c-16gb-krasnyy-dual-sim-4g-lte-3g.jpg",
+    "images/phones/jolla/Jolla-Sailfish-OS-телефон-000488.jpg"
+  ],
+  "storage": {
+    "flash": "45646MB",
+    "ram": "1ГБ"
+  }
+}
