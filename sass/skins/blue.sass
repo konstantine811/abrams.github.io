@@ -1,0 +1,79 @@
+@import "../bourbon/_bourbon"
+
+$blue_light: #4fcce4 
+$blue_light-gradient: #6cd1b5
+
+
+
+
+.header_logo
+	span
+		color: $blue_light
+.nav_menu
+	i
+		color: $blue_light
+	ul
+		a
+			color: black
+			text-decoration: none
+		li
+			transition: all .2s ease 
+			&:hover
+				border-bottom: $blue_light solid 4px
+				transition-delay: 0.8s ease
+				cursor: pointer
+.header_button
+	button
+		background: linear-gradient(to bottom, $blue_light, $blue_light_gradient)
+		
+.btn_close
+	background-color: $blue_light
+	&:hover
+		.line_1, .line_2
+			background-color: $blue_light
+			height: 10px
+			margin-top: -4px
+			margin-left: -0.9px
+
+.header_popup
+	button
+		background: linear-gradient(to bottom, $blue_light, $blue_light_gradient)
+
+#home
+	a
+		background: linear-gradient(to top, $blue_light, $blue_light_gradient)
+
+.row_about
+	svg
+		fill: $blue_light-gradient
+		transition: all 0.8s ease-in
+	.about_us:hover
+		background-color: $blue_light-gradient 
+		svg
+			fill: white
+.carousel
+	a
+		i
+			color: $blue_light-gradient
+.price_row
+	transition: all .6s ease-in
+	cursor: pointer
+	&:hover
+		h4
+			background: linear-gradient(to bottom, $blue_light, $blue_light_gradient)
+			color: white
+		a
+			background: linear-gradient(to bottom, $blue_light, $blue_light_gradient)
+.price_column
+	p
+		&::after
+			background-color: $blue_light-gradient
+		sub
+			color: $blue_light-gradient
+.map
+	button
+		background: linear-gradient(to bottom, $blue_light, $blue_light_gradient)
+		color: white
+.footer_logo
+	span
+		color: $blue_light

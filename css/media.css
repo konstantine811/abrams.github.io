@@ -3,62 +3,221 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 
+	.for_switch {
+    	right: 70px;
+    }
+    .name input#name {
+    	width: 65%;
+    }
+
+    .name .error_name span {
+    	right:  -17px;
+    	height: 42px;
+    	line-height: 19px;
+    	top: 122px;
+    	width: 85px;
+    }
+    .name .error_name i.fa.fa-times {
+    	right: 73px;
+    }
+    #slider-container .slider {
+    	width: 196%;
+    }
+    .tabs_content #slider {
+    	width: 218px;
+    }
+    .tabs_content #slider .value_slider {
+    	left:  100px;
+    }
+   .step {
+   	top: 64px;
+   }
+   .rounge_slider {
+   	top:  41px;
+   	position: relative;
+   }
+   .circle_slider {
+   	margin: 0 10px;
+   }
+
+   .star-cb-group {
+   	bottom: 125px;
+   	left: -34px;
+   }
+   .bottom_text .column3_text_bottom .quotes::before {
+   	top:  167px;
+   }
+   .footer {
+   	margin-top: 60px;
+   }
+  ul.buttons .prev {
+  	left: 11px;
+  } 
+  ul.buttons .prev:hover {
+  	left: 9px;
+  }
+  ul.buttons .next {
+	right: 8px;
+  }
+  ul.buttons .next:hover {
+  	right: 6px;
+  }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	.personal_last_block {
-		margin-top: 35px;
-	}
+	.header_form {
+        height: 1000px;
+    }
+    .background_form {
+        height: 968px;
+    }
+    .form_column {
+        height: 453px;
+    }
+
 
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-.resume_container .left {
-		text-align: left
-	}
-.section_content .resume_container h3,
-.resume_container .resume_icon {
-		text-align: left;
-		margin-bottom: 20px;
-	}
-}
+  .section_one {
+  	height: 100%;
+  }
 
+ .bottom_text {
+ 	margin-top: -136px;
+ }
+ .for_switch {
+ 	right: 163px;
+ }
+ .search {
+ 	left: 172px;
+ }
+ .option_age select {
+    margin: 0px 27px;
+}
+.option_age label[for=namber]::after {
+	left: 168px;
+}
+.option_age label[for=month]::after {
+	left: 335px;
+}
+.option_age label[for=year]::after {
+	left: 485px;
+}
+.option_city select[name=city] {
+	width: 417px;
+}
+.option_city label[for=city]::after {
+	left:488px;
+}
+.step {
+    top: 0px;
+}
+.rounge_slider {
+	top:  0px;
+}
+.star-cb-group {
+    bottom: 21px;
+    left: 46px; 
+}
+.circle_slider {
+	right: 94px;
+}
+#slider-container .slider li {
+	margin: 0 12px 0 5px;
+}
+#slider-container .slider li {
+	right: 45px;
+}
+#slider-container .slider li:hover {
+	right: 43px;
+}
+.column_2 h2 {
+    margin-left: 42px;
+    margin-top: 72px;
+    padding-bottom: 14px;
+}
+.tabs .tabs_caption li:first-child {
+	top: 188px;
+}
+.tabs .tabs_caption li:last-child {
+	top: 188px;
+}
+.bottom_text .column3_text_bottom .quotes::before {
+	    margin: -74px 0px;
+}
+.bottom_text .column3_text_bottom .quotes::after {
+    right: -9px;
+    bottom: -80px;
+}
+}
+@media only screen and (max-width : 600px) {
+    
+.name .error_name span {
+    right: 288px;
+    top: 100px;
+}
+.name input#name {
+    width: 44%;
+}
+.for_switch {
+    right: 444px;
+}
+.name .error_name i.fa.fa-times {
+    right: 415px;
+    top: 112px;
+}
+.submit {
+    height: 0;
+    top: 73px;
+    position: relative;
+    left: 59px;
+}
+.checkbox_option ul.drink li {
+	margin: 0px 6px;
+}
+.bottom_text {
+    margin-top: 100px;
+}
+.column_2 {
+	top: 46px;
+}
+.column_2 h2 {
+    margin-top: 94px;
+}
+#slider-container .slider li {
+    margin: 0 10px 0 5px;
+}
+ul.buttons .next {
+    right: 80px;
+}
+ul.buttons .next:hover {
+    right: 78px;
+}
+.footer {
+    margin-top: 123px;
+}
+}
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-	
-	.top_wrapper .top_text h1  {
-		font-size: 1em;
-		padding-left: 10px;
-		padding-right: 10px;
-		border: 2px solid;
-	}
-	.top_wrapper .top_text p {
-		font-size: 0.5em
-	}
-
-	.main-footer {
-		text-align: left;
-	}
-	.main_footer .social_wrap {
-		float: left;
-		margin-top: 20px;
-		width: 100%
-		
-	}
-	.main_footer .social_wrap ul {
-		padding-left: 0;
-	}
-
-	
+   .bottom_text {
+    margin-top: 368px;
+} 
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-
+.bottom_text {
+    margin-top: 440px;
 }
-
+}
+@media only screen and (max-width : 240px) {
+.bottom_text {
+    margin-top: 697px;
+}
+}
 
 /*==========  Mobile First Method  ==========*/
 
@@ -69,17 +228,17 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
-
+    
 }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-
+ 
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-
+ 
 }
 
  /* Large Devices, Wide Screens */

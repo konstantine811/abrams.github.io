@@ -1,188 +1,109 @@
-body {
-  color: #222;
-  letter-spacing: 1px;
+.header_logo span {
+  color: #4fcce4;
 }
 
-p,
-body .main_footer {
-  color: #888;
+.nav_menu i {
+  color: #4fcce4;
 }
 
-.s_about li {
-  color: #888;
+.nav_menu ul a {
+  color: black;
+  text-decoration: none;
 }
 
-.main_footer {
-  letter-spacing: 0px;
+.nav_menu ul li {
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
 }
 
-.color_element {
-  color: #2EA2CC;
+.nav_menu ul li:hover {
+  border-bottom: #4fcce4 solid 4px;
+  -webkit-transition-delay: 0.8s ease;
+          transition-delay: 0.8s ease;
+  cursor: pointer;
 }
 
-.color_bg {
-  background-color: #2EA2CC;
+.header_button button {
+  background: -webkit-gradient(linear, left top, left bottom, from(#4fcce4), to(#6cd1b5));
+  background: -webkit-linear-gradient(top, #4fcce4, #6cd1b5);
+  background: linear-gradient(to bottom, #4fcce4, #6cd1b5);
 }
 
-.color_border {
-  border-color: #2EA2CC;
+.btn_close {
+  background-color: #4fcce4;
 }
 
-.bg_light {
-  background-color: #FAFAFA;
+.btn_close:hover .line_1, .btn_close:hover .line_2 {
+  background-color: #4fcce4;
+  height: 10px;
+  margin-top: -4px;
+  margin-left: -0.9px;
 }
 
-.bg_dark {
-  background-color: #222;
-  color: #FAFAFA;
+.header_popup button {
+  background: -webkit-gradient(linear, left top, left bottom, from(#4fcce4), to(#6cd1b5));
+  background: -webkit-linear-gradient(top, #4fcce4, #6cd1b5);
+  background: linear-gradient(to bottom, #4fcce4, #6cd1b5);
 }
 
-.bg_dark .s_descr::after {
-  background-color: #FAFAFA;
+#home a {
+  background: -webkit-gradient(linear, left bottom, left top, from(#4fcce4), to(#6cd1b5));
+  background: -webkit-linear-gradient(bottom, #4fcce4, #6cd1b5);
+  background: linear-gradient(to top, #4fcce4, #6cd1b5);
 }
 
-svg {
-  height: 40%;
-  z-index: 100;
-  position: relative;
-  width: 40%;
+.row_about svg {
+  fill: #6cd1b5;
+  -webkit-transition: all 0.8s ease-in;
+  transition: all 0.8s ease-in;
 }
 
-svg path {
-  fill: #222;
-  height: 120px;
-  width: 120px;
+.row_about .about_us:hover {
+  background-color: #6cd1b5;
 }
 
-.toggle_mnu {
-  background-color: #222;
+.row_about .about_us:hover svg {
+  fill: white;
 }
 
-.top_mnu a:hover {
-  color: #2EA2CC;
-  background-color: rgba(255, 255, 255, 0.1);
+.carousel a i {
+  color: #6cd1b5;
 }
 
-.top_mnu a {
-  letter-spacing: 5px;
+.price_row {
+  -webkit-transition: all .6s ease-in;
+  transition: all .6s ease-in;
+  cursor: pointer;
 }
 
-.top_text p {
-  color: #FAFAFA;
-  letter-spacing: 5px;
+.price_row:hover h4 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#4fcce4), to(#6cd1b5));
+  background: -webkit-linear-gradient(top, #4fcce4, #6cd1b5);
+  background: linear-gradient(to bottom, #4fcce4, #6cd1b5);
+  color: white;
 }
 
-.personal_header {
-  letter-spacing: 4px;
+.price_row:hover a {
+  background: -webkit-gradient(linear, left top, left bottom, from(#4fcce4), to(#6cd1b5));
+  background: -webkit-linear-gradient(top, #4fcce4, #6cd1b5);
+  background: linear-gradient(to bottom, #4fcce4, #6cd1b5);
 }
 
-.s_descr {
-  letter-spacing: 5px;
+.price_column p::after {
+  background-color: #6cd1b5;
 }
 
-.s_descr::after {
-  background-color: #222;
+.price_column p sub {
+  color: #6cd1b5;
 }
 
-section h3 {
-  letter-spacing: 3px;
-  color: #888;
+.map button {
+  background: -webkit-gradient(linear, left top, left bottom, from(#4fcce4), to(#6cd1b5));
+  background: -webkit-linear-gradient(top, #4fcce4, #6cd1b5);
+  background: linear-gradient(to bottom, #4fcce4, #6cd1b5);
+  color: white;
 }
 
-.s_about p:nth-child(even) {
-  color: #2EA2CC;
-}
-
-.resume_container h3 {
-  color: #222;
-  letter-spacing: 1px;
-  font-size: 16px;
-  font-weight: 600;
-}
-
-.resume_container .left .resume_description strong {
-  margin-left: 10px;
-}
-
-.resume_container .right .resume_description strong {
-  margin-right: 10px;
-}
-
-.resume_icon {
-  font-size: 40px;
-  margin-bottom: 35px;
-}
-
-.resume_icon .year {
-  display: inline-block;
-  margin-bottom: 20px;
-  padding: 0 10px;
-}
-
-.resume_item .year {
-  background-color: #2EA2CC;
-}
-
-.resume_item h3 {
-  letter-spacing: 1px;
-}
-
-.resume_item .resume_description {
-  letter-spacing: 2px;
-}
-
-.s_portfolio li {
-  color: #888;
-  letter-spacing: 2px;
-}
-
-.s_portfolio li.active {
-  color: #fff;
-  border-bottom: 1px solid #2EA2CC;
-}
-
-.portfolio_item .port_item_cont a {
-  border-color: #2EA2CC;
-  color: #2EA2CC;
-}
-
-.main_footer a {
-  color: #FAFAFA;
-}
-
-.contacts_icon {
-  color: #2EA2CC;
-}
-
-.text-denger {
-  color: #2EA2CC;
-}
-
-form input:focus,
-form textarea:focus {
-  border: 1px solid #2EA2CC;
-  color: #888;
-}
-
-form input,
-form textarea {
-  letter-spacing: 2px;
-}
-
-form button {
-  background-color: #2EA2CC;
-  color: #fff;
-  letter-spacing: 2px;
-}
-
-form .form-group {
-  letter-spacing: 2px;
-  color: #888;
-}
-
-form .form-group ul li {
-  color: #2EA2CC;
-  list-style-type: none;
-  font-size: 16px;
-  font-weight: 600;
+.footer_logo span {
+  color: #4fcce4;
 }
