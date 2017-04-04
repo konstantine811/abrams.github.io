@@ -17,15 +17,15 @@ body .main_footer {
 }
 
 .color_element {
-  color: #2EA2CC;
+  color: #FF6347;
 }
 
 .color_bg {
-  background-color: #2EA2CC;
+  background-color: #FF6347;
 }
 
 .color_border {
-  border-color: #2EA2CC;
+  border-color: #FF6347;
 }
 
 .bg_light {
@@ -59,7 +59,7 @@ svg path {
 }
 
 .top_mnu a:hover {
-  color: #2EA2CC;
+  color: #FF6347;
   background-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -90,7 +90,7 @@ section h3 {
 }
 
 .s_about p:nth-child(even) {
-  color: #2EA2CC;
+  color: #FF6347;
 }
 
 .resume_container h3 {
@@ -120,7 +120,7 @@ section h3 {
 }
 
 .resume_item .year {
-  background-color: #2EA2CC;
+  background-color: #FF6347;
 }
 
 .resume_item h3 {
@@ -138,12 +138,12 @@ section h3 {
 
 .s_portfolio li.active {
   color: #fff;
-  border-bottom: 1px solid #2EA2CC;
+  border-bottom: 1px solid #FF6347;
 }
 
 .portfolio_item .port_item_cont a {
-  border-color: #2EA2CC;
-  color: #2EA2CC;
+  border-color: #FF6347;
+  color: #FF6347;
 }
 
 .main_footer a {
@@ -151,16 +151,16 @@ section h3 {
 }
 
 .contacts_icon {
-  color: #2EA2CC;
+  color: #FF6347;
 }
 
 .text-denger {
-  color: #2EA2CC;
+  color: #FF6347;
 }
 
 form input:focus,
 form textarea:focus {
-  border: 1px solid #2EA2CC;
+  border: 1px solid #FF6347;
   color: #888;
 }
 
@@ -170,7 +170,7 @@ form textarea {
 }
 
 form button {
-  background-color: #2EA2CC;
+  background-color: #FF6347;
   color: #fff;
   letter-spacing: 2px;
 }
@@ -181,7 +181,7 @@ form .form-group {
 }
 
 form .form-group ul li {
-  color: #2EA2CC;
+  color: #FF6347;
   list-style-type: none;
   font-size: 16px;
   font-weight: 600;

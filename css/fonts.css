@@ -1,41 +1,27 @@
 @font-face {
-  font-family: "MariadPro";
+  font-family: "Raleway";
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/MariadPro-Regular/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/MariadPro-Regular/MyriadPro-Regular.woff") format("woff"), url("../fonts/MariadPro-Regular/MyriadPro-Regular.ttf") format("truetype");
+  src: url("../fonts/RalewayRegular/RalewayRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RalewayRegular/RalewayRegular.woff") format("woff"), url("../fonts/RalewayRegular/RalewayRegular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: "Raleway";
   font-style: normal;
-  font-weight: normal;
-  src: url("../fonts/RobotRegular/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotRegular/Roboto-Regular.woff") format("woff"), url("../fonts/RobotRegular/Roboto-Regular.ttf") format("truetype");
+  font-weight: bold;
+  src: url("../fonts/RalewayBold/RalewayBold.eot?#iefix") format("embedded-opentype"), url("../fonts/RalewayBold/RalewayBold.woff") format("woff"), url("../fonts/RalewayBold/RalewayBold.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 300;
-  src: url("../fonts/RobotLight/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotLight/Roboto-Light.woff") format("woff"), url("../fonts/RobotLight/Roboto-Light.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Oswald";
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 300;
-  src: url("../fonts/Oswald/Oswald-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Oswald/Oswald-Regular.woff") format("woff"), url("../fonts/Oswald/Oswald-Regular.ttf") format("truetype");
+  src: url("../fonts/RalewayLight/RalewayLight.eot?#iefix") format("embedded-opentype"), url("../fonts/RalewayLight/RalewayLight.woff") format("woff"), url("../fonts/RalewayLight/RalewayLight.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: "Raleway";
   font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/RobotoBlack/Roboto-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoBlack/Roboto-Black.woff") format("woff"), url("../fonts/RobotoBlack/Roboto-Black.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 100;
-  src: url("../fonts/RobotThin/Roboto-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotThin/Roboto-Thin.woff") format("woff"), url("../fonts/RobotThin/Roboto-Thin.ttf") format("truetype");
+  font-weight: 600;
+  src: url("../fonts/RalewaySemiBold/RalewaySemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/RalewaySemiBold/RalewaySemiBold.woff") format("woff"), url("../fonts/RalewaySemiBold/RalewaySemiBold.ttf") format("truetype");
 }
